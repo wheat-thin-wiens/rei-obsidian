@@ -57,10 +57,10 @@
   --background-modifier-border-focus:#91B8E9;
   --background-modifier-box-shadow:  rgba(0, 0, 0, 0.5);
 
-  --background-modifier-error:       #2D2027;
-  --background-modifier-error-rgb:   45, 32, 39;
-  --background-modifier-error-hover: #3f2a30;
-  --background-modifier-success:     rgba(128, 159, 161, 0.15);
+  --background-modifier-error:       #A87692;
+  --background-modifier-error-rgb:   168, 118, 146;
+  --background-modifier-error-hover: #D9B0C0;
+  --background-modifier-success:     rgba(217, 176, 192, 0.15);
   --background-modifier-message:     #20262E;
 }
 
@@ -522,4 +522,13 @@
 /* Indent guides */
 .theme-dark .cm-indent-markers::before {
   color: #2F3843 !important;
+}
+
+/* Delete Button */
+.theme-dark .mod-warning {
+  color: #D9B0C0;
+}
+
+.theme-dark .titlebar-button.mod-close:hover {
+  color: #0E1723;
 }
